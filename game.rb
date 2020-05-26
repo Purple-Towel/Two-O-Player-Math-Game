@@ -1,6 +1,3 @@
-require "./player.rb"
-require "./question.rb"
-
 class Game
   attr_accessor :turn
   
@@ -56,5 +53,3 @@ class Game
     end
   end
 end
-
-start = Game.new
